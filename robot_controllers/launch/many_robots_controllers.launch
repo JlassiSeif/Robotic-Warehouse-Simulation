@@ -1,0 +1,11 @@
+<launch>
+<arg name="robot_namespace"/>
+  <!-- Load joint controller configurations from YAML file to parameter server -->
+  <rosparam file="$(find robot_controllers)/config/controllers.yaml" command="load"/>
+
+  <!-- load the controllers -->
+  <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false"
+    output="screen" ns="$(arg robot_namespace)" args="piston_position_controller F_Grip_position_controller joint_state_controller"/>
+
+
+</launch>

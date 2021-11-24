@@ -1,0 +1,237 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+	<world name="default">
+		<scene>
+			<ambient>127 127 127 1</ambient>
+			<background>0.5 0.5 0.5 1</background>
+			<shadows>0</shadows>
+		</scene>
+
+		<include>
+			<uri>model://sun</uri>
+		</include>
+
+		<include>
+			<uri>model://ground_plane</uri>
+		</include>
+
+		<model name="factory">
+			<static>1</static>
+			<include>
+				<uri>model://Factory</uri>
+			</include>
+			<pose>-17.95 -2.5225 0 0 0 0</pose>
+		</model>
+
+		<model name="support1">
+			<include>
+				<uri>model://support</uri>
+			</include>
+			<pose>-5 5 0 0 0 1.57 </pose>
+		</model>
+
+		<model name="support2">
+			<include>
+				<uri>model://support</uri>
+			</include>
+			<pose>-5 10 0 0 0 1.57 </pose>
+		</model>
+
+		<model name="support3">
+			<include>
+				<uri>model://support</uri>
+			</include>
+			<pose>5 5 0 0 0 1.57 </pose>
+		</model>
+
+		<model name="support4">
+			<include>
+				<uri>model://support</uri>
+			</include>
+			<pose>5 10 0 0 0 1.57 </pose>
+		</model>
+
+		<model name="support5">
+			<include>
+				<uri>model://support</uri>
+			</include>
+			<pose>-5 15 0 0 0 1.57 </pose>
+		</model>
+
+		<model name="support6">
+			<include>
+				<uri>model://support</uri>
+			</include>
+			<pose>5 15 0 0 0 1.57 </pose>
+		</model>
+
+		<model name="support7">
+			<include>
+				<uri>model://support</uri>
+			</include>
+			<pose>5 20 0 0 0 0 </pose>
+		</model>
+
+		<model name="support8">
+			<include>
+				<uri>model://support</uri>
+			</include>
+			<pose>5 25 0 0 0 0 </pose>
+		</model>
+
+		<model name="support9">
+			<include>
+				<uri>model://support</uri>
+			</include>
+			<pose>5 30 0 0 0 0 </pose>
+		</model>
+
+
+		<model name="support10">
+			<include>
+				<uri>model://support</uri>
+			</include>
+			<pose>-5 20 0 0 0 0 </pose>
+		</model>
+
+		<model name="suppor11">
+			<include>
+				<uri>model://support</uri>
+			</include>
+			<pose>-5 25 0 0 0 0 </pose>
+		</model>
+
+		<model name="support12">
+			<include>
+				<uri>model://support</uri>
+			</include>
+			<pose>-5 30 0 0 0 0 </pose>
+		</model>
+		<model name="support13">
+			<include>
+				<uri>model://support</uri>
+			</include>
+			<pose>10 20 0 0 0 0 </pose>
+		</model>
+
+		<model name="support14">
+			<include>
+				<uri>model://support</uri>
+			</include>
+			<pose>10 25 0 0 0 0 </pose>
+		</model>
+
+		<model name="support15">
+			<include>
+				<uri>model://support</uri>
+			</include>
+			<pose>10 30 0 0 0 0 </pose>
+		</model>
+
+		<model name="support16">
+			<include>
+				<uri>model://support</uri>
+			</include>
+			<pose>7.5 20 0 0 0 0 </pose>
+		</model>
+
+		<model name="support17">
+			<include>
+				<uri>model://support</uri>
+			</include>
+			<pose>7.5 25 0 0 0 0 </pose>
+		</model>
+
+		<model name="support18">
+			<include>
+				<uri>model://support</uri>
+			</include>
+			<pose>7.5 30 0 0 0 0 </pose>
+		</model>
+
+		<model name="support19">
+			<include>
+				<uri>model://support</uri>
+			</include>
+			<pose>12.5 20 0 0 0 0 </pose>
+		</model>
+
+		<model name="support20">
+			<include>
+				<uri>model://support</uri>
+			</include>
+			<pose>12.5 25 0 0 0 0 </pose>
+		</model>
+
+		<model name="support21">
+			<include>
+				<uri>model://support</uri>
+			</include>
+			<pose>12.5 30 0 0 0 0 </pose>
+		</model>
+
+		<model name="support22">
+			<include>
+				<uri>model://support</uri>
+			</include>
+			<pose>-10 20 0 0 0 0 </pose>
+		</model>
+
+		<model name="support23">
+			<include>
+				<uri>model://support</uri>
+			</include>
+			<pose>-10 25 0 0 0 0 </pose>
+		</model>
+
+		<model name="support24">
+			<include>
+				<uri>model://support</uri>
+			</include>
+			<pose>-10 30 0 0 0 0 </pose>
+		</model>
+
+		<model name="support25">
+			<include>
+				<uri>model://support</uri>
+			</include>
+			<pose>-7.5 20 0 0 0 0 </pose>
+		</model>
+
+		<model name="support26">
+			<include>
+				<uri>model://support</uri>
+			</include>
+			<pose>-7.5 25 0 0 0 0 </pose>
+		</model>
+
+		<model name="support27">
+			<include>
+				<uri>model://support</uri>
+			</include>
+			<pose>-7.5 30 0 0 0 0 </pose>
+		</model>
+
+		<model name="support28">
+			<include>
+				<uri>model://support</uri>
+			</include>
+			<pose>-12.5 20 0 0 0 0 </pose>
+		</model>
+
+		<model name="support29">
+			<include>
+				<uri>model://support</uri>
+			</include>
+			<pose>-12.5 25 0 0 0 0 </pose>
+		</model>
+
+		<model name="support30">
+			<include>
+				<uri>model://support</uri>
+			</include>
+			<pose>-12.5 30 0 0 0 0 </pose>
+		</model>
+
+	</world>
+</sdf>
